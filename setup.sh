@@ -17,7 +17,7 @@ mkdir -p "$LAUNCHAGENTS_DIR"
 cat << 'EOF' > "$SCRIPT_PATH"
 #!/bin/bash
 
-timeInbetweenAlerts=30
+timeInbetweenAlerts=10
 batteryPercentAlert=15
 
 # This is from https://github.com/NanashiTheNameless/MacBatteryAlertTool
